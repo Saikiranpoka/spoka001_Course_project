@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    color: blue;
+}
+
+.updateProfileBody {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+}
+
+.updateProfileArea {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+TextField {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+Button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ddd;
+}

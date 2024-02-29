@@ -1,0 +1,44 @@
+/* Add these styles to your existing CSS */
+
+body {
+    margin: 0;
+}
+
+.updateProfileArea {
+    width: 50vw;
+    max-width: 1000px;
+    /* Set a maximum width for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-right: auto;
+    /* Center the area by setting margin-right to auto */
+    margin-left: 10vw;
+    /* Add margin-left to provide some space from the left side */
+    margin-top: 5vw;
+    /* Adjust the margin-top value as needed */
+    padding: 20px;
+    /* Add some padding for better aesthetics */
+    background-color: cornsilk;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow for a lifted effect */
+}
+
+.heading {
+    margin-top: 1rem;
+    /* Adjust the margin-top value as needed */
+}
+
+.updateProfileBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Adjust the height to 100vh for full viewport height */
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 2rem;
+    /* Adjust the font size as needed */
+}
